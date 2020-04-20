@@ -1,0 +1,16 @@
+{
+  "name": "Stackunderflow",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cd Backend && node app.js",
+    "dev": "cd Backend && npm start",
+    "test": "cd Frontend && npm test",
+    "preinstall": "cd Backend && npm install",
+    "install": "cd Frontend && npm install",
+    "build": "cd Frontend && npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
